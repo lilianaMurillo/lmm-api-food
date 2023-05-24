@@ -10,15 +10,15 @@
 }
 
 .recipeCard {
-  background-color: rgba(95, 158, 160, 0.407);
+  background-color: #ED3B66;
   border-radius: 15%;
   border-width: 5px;
   height: 100%;
 }
 
 .recipeCard:hover {
-  background-color: rgba(95, 158, 160, 0.52);
-  color: gray;
+  background-color: rgba(54, 159, 163, 0.52);
+  color: rgb(227, 248, 245);
   cursor: pointer;
 }
 

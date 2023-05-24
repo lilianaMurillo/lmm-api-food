@@ -88,7 +88,7 @@ export default function RecipeDetail() {
 
               <div className="recipeDetail_container">
                 <Link className="recipeDetail_backButton" to="/home">
-                  <button>Back</button>
+                  <button>BACK</button>
                 </Link>
 
                 <div className="recipeDetail_image">

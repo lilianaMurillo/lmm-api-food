@@ -256,7 +256,7 @@ export default function CreateRecipe() {
 
           <div className="createRecipe">
             <Link to="/home">
-              <button className="createRecipeBackButton">Back</button>
+              <button className="createRecipeBackButton">BACK</button>
             </Link>
 
             <h1 className="title">Create Recipe</h1>
@@ -308,7 +308,7 @@ export default function CreateRecipe() {
                 </div>
 
                 <div className="healthScore">
-                  <label>HealthScore: </label>
+                  <label>Health Score: </label>
                 </div>
                 <div className="healthScoreInput">
                   <input
@@ -342,7 +342,7 @@ export default function CreateRecipe() {
                 </div>
 
                 <div className="dishTypes">
-                  <label>Dish types: </label>
+                  <label>Dish type: </label>
                 </div>
                 <div className="dishTypesInput">
                   <select>
@@ -402,7 +402,7 @@ export default function CreateRecipe() {
                 <div className="divider"></div>
 
                 <div className="previewName">
-                  <h1>{newRecipe.name ? newRecipe.name : "Título"}</h1>
+                  <h1>{newRecipe.name ? newRecipe.name : "Title"}</h1>
                 </div>
 
                 <div className="previewImage">
@@ -467,7 +467,7 @@ export default function CreateRecipe() {
                 </div>
 
                 <div className="previewSummary">
-                  <h3>Summary</h3>
+                  <h3>Summary:</h3>
                   <p>{newRecipe.summary}</p>
                 </div>
 
