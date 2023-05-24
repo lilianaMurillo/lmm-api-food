@@ -7,8 +7,8 @@ import {
 } from "../../redux/actions";
 import { Link, useHistory } from "react-router-dom";
 import Spinner from "../../components/Spinner";
-import createRecipePreview from "../../assets/createRecipePreview.webp";
-import createRecipebg from "../../assets/createRecipebg.webp";
+import createRecipePreview from "../../assets/createRecipePreview.png";
+import createRecipebg from "../../assets/createRecipebg.png";
 import "./CreateRecipe.css";
 
 function validate(newRecipe) {

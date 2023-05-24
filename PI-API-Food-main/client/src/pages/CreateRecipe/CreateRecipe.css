@@ -15,7 +15,7 @@
 
 .createRecipe {
   position: relative;
-  color: black;
+  color: rgb(29, 140, 121);
   font-weight: 500;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .error {
-  color: red;
+  color: #ED3B66;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   font-size: x-small;
@@ -45,8 +45,8 @@
 .createRecipe h3 {
   margin: 0px 0px 0px;
   text-align: left;
-  color: black;
-  font-size: 16px;
+  color: #129575;
+  font-size: 18px;
 }
 
 .createRecipeBackButton {
@@ -59,7 +59,7 @@
 .title {
   margin: 0px 0px 0px;
   padding: 10px 0px 10px;
-  background-color: black;
+  background-color: #129575;
   text-align: center;
   color: white;
 }
@@ -237,9 +237,9 @@
   margin: 0 0 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: black;
-  font-family: "Alex Brush", cursive;
-  font-size: 36px;
+  color: #ED3B66;
+  font-family: "Poppins", sans-serif, normal;
+  font-size: 40px;
 }
 
 .previewImage {
