@@ -8,7 +8,7 @@ export const SORT_RECIPES = "SORT_RECIPES";
 export const CREATE_RECIPE = "CREATE_RECIPE";
 export const GET_RECIPE_DETAIL = "GET_RECIPE_DETAIL";
 
-axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:5000";
+axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001";
 
 export const getAllRecipes = () => {
   return async function (dispatch) {

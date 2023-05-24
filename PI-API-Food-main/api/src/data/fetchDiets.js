@@ -11,7 +11,7 @@ module.exports = async () => {
 
   try {
     const response = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&includeNutrition=false&addRecipeInformation=true&number=50`
+      `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?apiKey=${API_KEY}&includeNutrition=false&addRecipeInformation=true&number=50`
     );
     const diets = await response.json();
     const resultsApi = diets.results.map((recip) => {

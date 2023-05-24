@@ -5,7 +5,7 @@ const { Recipe, Diet } = require("../db");
 const fetchRecipesAPI = async () => {
   try {
     const response = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&includeNutrition=false&addRecipeInformation=true&number=100`
+      `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch?apiKey=${API_KEY}&includeNutrition=false&addRecipeInformation=true&number=100`
     );
     const recipes = await response.json();
     return recipes.results.map((recip) => {
