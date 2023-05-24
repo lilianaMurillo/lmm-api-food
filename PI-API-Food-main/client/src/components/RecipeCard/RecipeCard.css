@@ -17,7 +17,7 @@
 }
 
 .recipeCard:hover {
-  background-color: rgba(165, 223, 225, 0.52);
+  background-color: #FF9C00;
   color: rgb(227, 248, 245);
   cursor: pointer;
 }

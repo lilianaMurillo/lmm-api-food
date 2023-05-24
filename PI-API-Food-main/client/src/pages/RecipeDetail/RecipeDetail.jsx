@@ -7,7 +7,7 @@ import {
 } from "../../redux/actions";
 import Spinner from "../../components/Spinner";
 import oldReliable from "../../assets/oldReliable.webp";
-import recipeDetailbg from "../../assets/recipeDetailbg.webp";
+import recipeDetailbg from "../../assets/recipeDetailbg.png";
 import "./RecipeDetail.css";
 
 export default function RecipeDetail() {
